@@ -1,0 +1,89 @@
+:root {
+    --red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
+    --white: hsl(0, 0%, 100%);
+    --light-blue: hsl(210, 60%, 98%);
+    --blue1: hsl(211, 68%, 94%);
+    --blue2: hsl(205, 33%, 90%);
+    --grayish-blue: hsl(219, 14%, 63%);
+    --dark-blue: hsl(219, 12%, 42%);
+    --very-dark: hsl(224, 21%, 14%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "JakartaMedium";
+    src: url("./assets/fonts/static/PlusJakartaSans-Medium.ttf");
+}
+
+body {
+   font-family: "JakartaMedium";
+   background-color: var(--blue1);
+}
+
+.wrapper {
+    background-color: var(--white);
+    width: 70%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 50px auto;
+
+}
+
+.wrapper-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-left {
+    font-weight: 900;
+    font-size: 20px;
+}
+.top-left span {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 2px 8px;
+    margin-left: 5px;
+    border-radius: 6px;
+}
+
+.wrapper-content {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: var(--blue1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.comment-img {
+    width: 60px;
+}
+
+.alt-img {
+    align-self: flex-start;
+}
+
+.inner-text {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 14px;
+}
+
+
+
+
+
+
+
+
